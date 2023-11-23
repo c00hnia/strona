@@ -1,0 +1,142 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F2E3D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.aha
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1) ;
+}
+.aha .left_Side
+{
+    position: relative;
+    background: #026773;
+    padding: 40px;
+
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.profiletext .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.profiletext .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletext h2
+{
+    color: #F2E3D5;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.kontakt
+{
+    padding-top: 40px; ;
+}
+.title
+{
+    color: #F2E3D5;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.kontakt ul
+{
+    position: relative;
+}
+.kontakt ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.kontakt ul li span
+{
+    color: #F2E3D5;
+    font-weight: 300;
+}
+.kontakt.wykszt li
+{
+    margin-bottom: 15px;
+}
+.kontakt.wykszt h5
+{
+    color: #F2E3D5;
+    font-weight: 500;
+}
+.kontakt.wykszt h4
+{
+    color: #F2E3D5;
+    font-weight: 500;
+
+}
+.aha .right_Side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.omnie
+{
+    margin-bottom: 50px;
+}
+.omnie:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color:#026773;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #026773;
+    
+}
+.omnie .box 
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
